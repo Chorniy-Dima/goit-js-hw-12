@@ -1,0 +1,56 @@
+.gallery-container {
+    padding: 0 32px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 32px;
+    justify-self: center;
+    max-width: 1134px;
+}
+
+.gallery-item {
+    border: 1px solid #808080;
+}
+
+.gallery-image {
+    width: 360px;
+    height: 200px;
+}
+
+.descr {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: space-between;
+    padding: 4px 25px 4px 20px;
+    background-color: #fff;
+}
+
+.descr-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.pic-title {
+    font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.33333;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+}
+
+.pic-txt {
+    font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+}
