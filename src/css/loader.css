@@ -12,7 +12,7 @@
     display: inline-block;
     box-sizing: border-box;
     animation: rotation 1s linear infinite;
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
 .hidden {
